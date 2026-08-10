@@ -178,6 +178,11 @@ h2 span{
     padding: 12px 12px 17px 12px;
 }
 
+.card:hover{
+    transition: 0.3s;
+    border: 1.5px solid var(--color-gray-300);
+}
+
 .card img{
     border-radius: 8px;
     margin-bottom: 20px;
