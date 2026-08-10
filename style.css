@@ -47,6 +47,25 @@ main{
     max-width: 1040px;
     margin: auto;
 }
+.avatar{
+    position: relative;
+    width: 110px;
+    margin:0 auto 56px auto;
+}
+
+.avatar img{
+    
+    display: block;
+}
+
+.avatar img:last-child{
+    border-radius: 50%;
+    width: 87.27px;
+    height: 87.27px;
+    position: absolute;
+    top: 11px;
+    left: 11px;
+}
 
 .hero-text{
     max-width: 680px;
