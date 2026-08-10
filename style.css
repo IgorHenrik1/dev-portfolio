@@ -231,3 +231,66 @@ h2 span{
     height: 48px;
     margin-bottom: 20px;
 }
+
+#contact{
+    background-image: url(assets/Background_Contacts.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 128px 0 200px 0;
+}
+
+#contact .container{
+    max-width: 1040px;
+    margin: auto;
+}
+
+#contact .container .subtitle{
+    color: var(--color-purple);   
+}
+
+#contact .container .title{
+    margin-bottom: 8px;   
+}
+
+#contact .container p{
+    color: var(--color-gray-200);
+    font-family: "Maven Pro", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 140%;
+
+}
+
+#contact .container .links{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 48px auto 0 auto;
+}
+
+#contact .container .links .link{
+    background-color: var(--color-gray-400);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+#contact .container .links .link .container-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contact .container .links .link .container-link .icon-text{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 30%;
+}
+
+.link:hover{
+    transition: 0.3s;
+    border: 1.5px solid var(--color-blue);
+}
