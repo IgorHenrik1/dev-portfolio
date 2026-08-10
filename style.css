@@ -133,3 +133,66 @@ h2 span{
 .CaretDoubleDown{
     margin: 94px auto 0 auto;
 }
+
+#projects{
+    margin:auto;
+    padding-top: 72px;
+    padding-bottom: 144px;
+    text-align: center;
+    background-color: var(--color-gray-500)
+}
+
+#projects .container{
+    max-width: 1040px;
+    margin: auto;
+}
+
+.project-subtitle{
+    font-size: 1.25rem;
+    color: var(--color-red);
+    font-family: "Inconsolata", sans-serif;
+    line-height: 120%;
+}
+
+.project-title{
+    font-family: "Asap", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--color-gray-100);
+    line-height: 120%;
+    margin-top: 8px;
+    margin-bottom: 56px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    
+}
+
+.card{
+    background-color: var(--color-gray-400);
+    border-radius: 12px;
+    width: 330px;
+    padding: 12px 12px 17px 12px;
+}
+
+.card h3{
+    font-family: "Asap", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--color-gray-100);
+    line-height: 120%;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.card p{
+    font-family: "Maven Pro", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--color-gray-200);
+    line-height: 140%;
+    text-align: left;
+}
