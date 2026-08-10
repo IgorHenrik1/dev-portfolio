@@ -95,6 +95,10 @@ h2{
     font-family: "Inconsolata", sans-serif;
 }
 
+h2 span{
+    color: var(--color-red);
+}
+
 .hero-text p{
     color: var(--color-gray-300);
     font-size: 0.875rem;
