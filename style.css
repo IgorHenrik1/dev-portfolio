@@ -48,12 +48,19 @@ main{
     margin: auto;
 }
 
+.hero-text{
+    max-width: 690px;
+    margin: auto;
+}
+
 h1{
     color: var(--color-gray-100);
     font-size: 3.5rem;
     line-height: 120%;
     font-weight: bold;
     font-family: "Asap", sans-serif;
+    margin-bottom: 20px;
+    margin-top: 8px;
 }
 
 h2{
@@ -64,7 +71,7 @@ h2{
     font-family: "Inconsolata", sans-serif;
 }
 
-#hero p{
+.hero-text p{
     color: var(--color-gray-300);
     font-size: 0.875rem;
     line-height: 140%;
